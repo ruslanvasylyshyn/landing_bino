@@ -1,0 +1,17 @@
+@import "fonts";
+@import "reset";
+
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@import "header";
+@import "blog";
+@import "footer";
