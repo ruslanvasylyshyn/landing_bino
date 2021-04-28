@@ -1,4 +1,4 @@
-.blog__heading {
+.blog__name {
   color: #6a6a6a;
   font-size: 36px;
   font-weight: 700;
@@ -16,6 +16,83 @@
   letter-spacing: normal;
   line-height: 21px;
   text-align: center;
-  color: #999;
   margin-bottom: 25px;
+}
+
+.blog_row {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.blog__card {
+  display: flex;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog__card-img1 {
+  background-image: url("../images/1.png");
+
+}
+
+.blog__card-img2 {
+  background-image: url("../images/2.png");
+}
+
+.blog__card-img3 {
+  background-image: url("../images/3.png");
+}
+
+.blog__card-img4 {
+  background-image: url("../images/4.png");
+}
+
+.blog__card-info {
+  background-color: #e74e3e;
+  color: #fff;
+  width: calc(100% - 60px);
+  padding: 30px;
+}
+
+.card__name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card__border {
+  height: 4px;
+  width: 44px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-bottom: 55px;
+  line-height: 24px;
+}
+
+.card__href {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
 }
